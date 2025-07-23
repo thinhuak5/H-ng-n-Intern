@@ -14,7 +14,8 @@ import ChangePassword from "@/pages/client/changePassword";
 import AddAddressPage from "@/pages/client/AddAddressForm ";
 import EditAddressPage from "@/pages/client/editAddressPage";
 import VoucherPage from "@/pages/client/VoucherPage";
-
+import OrderPage from "@/pages/client/orderPage";
+import RecentlyViewedPage from "@/pages/client/recentlyViewedPage";
 
 export const Router = createBrowserRouter([
   {
@@ -35,6 +36,8 @@ export const Router = createBrowserRouter([
       { path: "them-dia-chi", element: <AddAddressPage /> },
       { path: "sua-dia-chi", element: <EditAddressPage /> },
       { path: "khuyen-mai", element: <VoucherPage /> },
+      { path: "thong-tin-don-hang", element: <OrderPage /> },
+      { path: "sp-da-xem", element: <RecentlyViewedPage /> },
     ],
   },
 ]);
