@@ -6,6 +6,8 @@ import Home from "@/pages/client/home";
 import UserSidebar from "@/components/ui/sidebar/UserSidebar";
 import CategoryList from "@/components/ui/filter/CategoryList";
 import SearchFilter from "@/components/ui/filter/SearchFilter";
+import Checkout from "@/pages/client/checkout";
+import CartPage from "@/pages/client/cart";
 
 export const Router = createBrowserRouter([
   {
@@ -13,14 +15,13 @@ export const Router = createBrowserRouter([
     element: <MainLayout />,
     children: [
       { path: "", element: <Home /> },
-
-
       { path: "san-pham", element: <Product /> },
       { path: "san-pham/:id", element: <Productdetail /> },
       { path: "user", element: <UserSidebar /> },
-{ path: "danh-muc", element: <CategoryList /> },
-{ path: "danh-muc-tiem-kiem", element: <SearchFilter /> },
-
+      { path: "danh-muc", element: <CategoryList /> },
+      { path: "danh-muc-tiem-kiem", element: <SearchFilter /> },
+      { path: "don-hang", element: <Checkout /> },
+      { path: "gio-hang", element: <CartPage /> },
     ],
   },
 ]);
