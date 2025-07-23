@@ -11,6 +11,8 @@ import CartPage from "@/pages/client/cart";
 import ProfilePage from "@/pages/client/profile";
 import AddressPage from "@/pages/client/address";
 import ChangePassword from "@/pages/client/changePassword";
+import AddAddressPage from "@/pages/client/AddAddressForm ";
+
 
 export const Router = createBrowserRouter([
   {
@@ -27,8 +29,8 @@ export const Router = createBrowserRouter([
       { path: "gio-hang", element: <CartPage /> },
       { path: "thong-tin-tai-khoan", element: <ProfilePage /> },
       { path: "dia-chi", element: <AddressPage /> },
- { path: "doi-mat-khau", element: <ChangePassword /> },
-
+      { path: "doi-mat-khau", element: <ChangePassword /> },
+      { path: "them-dia-chi", element: <AddAddressPage /> },
     ],
   },
 ]);
