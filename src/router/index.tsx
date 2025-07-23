@@ -12,6 +12,7 @@ import ProfilePage from "@/pages/client/profile";
 import AddressPage from "@/pages/client/address";
 import ChangePassword from "@/pages/client/changePassword";
 import AddAddressPage from "@/pages/client/AddAddressForm ";
+import EditAddressPage from "@/pages/client/editAddressPage";
 
 
 export const Router = createBrowserRouter([
@@ -31,6 +32,7 @@ export const Router = createBrowserRouter([
       { path: "dia-chi", element: <AddressPage /> },
       { path: "doi-mat-khau", element: <ChangePassword /> },
       { path: "them-dia-chi", element: <AddAddressPage /> },
+      { path: "sua-dia-chi", element: <EditAddressPage /> },
     ],
   },
 ]);
