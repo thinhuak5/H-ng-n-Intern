@@ -1,9 +1,12 @@
 import React from 'react'
+import CategoryList from '@/components/ui/filter/CategoryList';
+import SearchFilter from '@/components/ui/filter/SearchFilter';
+
 
 const Product = () => {
   return (
     <div>
-      <p>Đây là trang sản phẩm</p>
+      
     </div>
   )
 }

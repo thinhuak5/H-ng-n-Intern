@@ -18,7 +18,7 @@ const ClientBanner = () => {
   const nextRef = useRef(null);
 
   return (
-    <div className="max-w-[90%]">
+    <div className="max-w-[1040px]">
       <div className="relative bg-white p-4 rounded-xl shadow-md">
         <Swiper
           modules={[Navigation, Autoplay]}
