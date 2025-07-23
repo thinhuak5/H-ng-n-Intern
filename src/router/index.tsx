@@ -9,6 +9,7 @@ import SearchFilter from "@/components/ui/filter/SearchFilter";
 import Checkout from "@/pages/client/checkout";
 import CartPage from "@/pages/client/cart";
 import ProfilePage from "@/pages/client/profile";
+import AddressPage from "@/pages/client/address";
 
 export const Router = createBrowserRouter([
   {
@@ -24,6 +25,7 @@ export const Router = createBrowserRouter([
       { path: "don-hang", element: <Checkout /> },
       { path: "gio-hang", element: <CartPage /> },
       { path: "thong-tin-tai-khoan", element: <ProfilePage /> },
+      { path: "dia-chi", element: <AddressPage /> },
 
     ],
   },
