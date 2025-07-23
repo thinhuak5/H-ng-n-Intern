@@ -13,6 +13,8 @@ export const Router = createBrowserRouter([
     element: <MainLayout />,
     children: [
       { path: "", element: <Home /> },
+
+
       { path: "san-pham", element: <Product /> },
       { path: "san-pham/:id", element: <Productdetail /> },
       { path: "user", element: <UserSidebar /> },
